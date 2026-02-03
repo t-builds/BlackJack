@@ -1,6 +1,6 @@
 @font-face {
     font-family: Casino;
-    src: url("/BlackJack/fonts/BLACKJAC.TTF");
+    src: url("/fonts/BLACKJAC.TTF");
 }
 
 body {
@@ -9,7 +9,7 @@ body {
     text-align: center;
     font-family: Casino, sans-serif;
     height: 710px;
-    background-image: url("/BlackJack/images/body.png");
+    background-image: url("/images/body.png");
     background-size: cover;
 }
 
