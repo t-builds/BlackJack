@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Casino;
+    src: url("/BlackJack/fonts/BLACKJAC.TTF");
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Casino, sans-serif;
+    height: 710px;
+    background-image: url("/BlackJack/images/body.png");
+    background-size: cover;
+}
+
+#htxt {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 100px;
+    color: #F7D002;
+    text-shadow: 0px 0px 5px black;
+}
+
+.ptxt {
+    font-size: 30px;
+    font-weight: bold;
+    font-weight: medium;
+    text-shadow: 0px 0px 3px wheat;
+    color: #BF1A2F;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    padding: 15px 30px;
+    font-size: 25px;
+    font-family: Casino, sans-serif;
+    background-color: #F00699;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#start-btn:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    border: 3px solid black;
+}
+
+#start-btn:active {
+    transform: scale(0.9);
+    transition: 0.1s;
+}
+
+#new-btn:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    border: 3px solid black;
+}
+
+#new-btn:active {
+    transform: scale(0.9);
+    transition: 0.1s;
+}
+
+#alert {
+    color: red;
+    font-weight: bolder;
+    text-shadow: 0px 0px 2px white;
+}
+
+.ftxt {
+    color: #53F4FF;
+    text-shadow: 0px 0px 2px black ;
+    font-size: large;
+    font-weight: 300;
+}
+
+#player {
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+#chips {
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
